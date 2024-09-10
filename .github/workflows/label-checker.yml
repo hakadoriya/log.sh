@@ -6,6 +6,9 @@ name: label-checker
 # gh label create --force "github_actions" --description "Pull requests that update GitHub Actions code" --color 000000
 # gh label create --force "docker" --description "Pull requests that update Docker code" --color 21CEFF
 
+# Renovate
+# gh label create --force "renovate" --description "Renovate" --color 009485
+
 # Commit prefix
 # gh label create --force "BREAKING CHANGE" --description "BREAKING CHANGES" --color FF0303
 # gh label create --force "build" --description "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)" --color 5319E7
